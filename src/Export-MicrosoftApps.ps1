@@ -54,10 +54,10 @@ function GetAppsFromMicrosoftLearnDoc() {
             $isGuid = [System.Guid]::TryParse($appId, [System.Management.Automation.PSReference]$guid)
             if ($isGuid) {
                 $itemInfo = [ordered]@{
-                    AppId                  = $appId + ""
-                    AppDisplayName         = $appName + ""
-                    AppOwnerOrganizationId = $tenantId + ""
-                    Source                 = "Learn"
+                    appId                  = $appId + ""
+                    displayName         = $appName + ""
+                    appOwnerOrganizationId = $tenantId + ""
+                    source                 = "Learn"
                 }
                 $appList += $itemInfo
             }
@@ -80,16 +80,16 @@ function GetAppsFromEntraDocs() {
 
         foreach ($key in $jsonContent.Keys) {
             # The key is the display name and the value is the guid/appId
-            $appDisplayName = $key
+            $displayName = $key
             $appId = $jsonContent[$key]
 
             # Verify the value is a valid GUID
             $guid = [System.Guid]::Empty
             $itemInfo = [ordered]@{
-                AppId                  = $appId + ""
-                AppDisplayName         = $appDisplayName + ""
-                AppOwnerOrganizationId = ""
-                Source                 = "EntraDocs"
+                appId                  = $appId + ""
+                displayName         = $displayName + ""
+                appOwnerOrganizationId = ""
+                source                 = "EntraDocs"
             }
             $appList += $itemInfo
         }
@@ -105,7 +105,7 @@ function GetAppsFromEntraDocs() {
 function GetAppsFromMicrosoftGraph() {
     Write-Host "Retrieving apps from Microsoft Graph"
     $tenantIdList = @("f8cdef31-a31e-4b4a-93e4-5f571e91255a", "72f988bf-86f1-41af-91ab-2d7cd011db47", "cdc5aeea-15c5-4db6-b079-fcadd2505dc2")
-    $select = "appId,appDisplayName,appOwnerOrganizationId"
+    $select = "appId,displayName,appOwnerOrganizationId"
 
 
     foreach ($tenantId in $tenantIdList) {
@@ -117,10 +117,10 @@ function GetAppsFromMicrosoftGraph() {
 
     foreach ($item in $servicePrincipals) {
         $itemInfo = [ordered]@{
-            AppId                  = $item.appId + ""
-            AppDisplayName         = $item.appDisplayName + ""
-            AppOwnerOrganizationId = $item.appOwnerOrganizationId + ""
-            Source                 = "Graph"
+            appId                  = $item.appId + ""
+            displayName         = $item.displayName + ""
+            appOwnerOrganizationId = $item.appOwnerOrganizationId + ""
+            source                 = "Graph"
         }
         $appList += $itemInfo
     }
@@ -129,18 +129,18 @@ function GetAppsFromMicrosoftGraph() {
 
 $appList = @()
 
-# Sources at the top take priority, duplicates from sources that are lower are skipped.
+# sources at the top take priority, duplicates from sources that are lower are skipped.
 $appList += GetAppsFromMicrosoftGraph
 $appList += GetAppsFromEntraDocs
 $appList += GetAppsFromMicrosoftLearnDoc
-$appList += Import-Csv $CustomAppDataPath | ForEach-Object { $_.AppDisplayName = $_.AppDisplayName.trim() + " [Community Contributed]"; $_ }
+$appList += Import-Csv $CustomAppDataPath | ForEach-Object { $_.displayName = $_.displayName.trim() + " [Community Contributed]"; $_ }
 
 Write-Host "Creating unique list of apps"
 $idList = @()
 $uniqueAppList = @()
 
 foreach ($item in $appList) {
-    [string]$id = $item.AppId
+    [string]$id = $item.appId
 
     # skip duplicates
     if ($idList -contains $id) { continue }
