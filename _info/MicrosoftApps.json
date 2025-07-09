@@ -1770,6 +1770,12 @@
     "source": "Graph"
   },
   {
+    "appId": "f2537abf-644e-4a0d-9f7b-c91c45c643db",
+    "displayName": "Teams Admin Monitoring Alerting Platform",
+    "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "source": "Graph"
+  },
+  {
     "appId": "870c4f2e-85b6-4d43-bdda-6ed9a579b725",
     "displayName": "Microsoft Information Protection Sync Service",
     "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",

@@ -294,6 +294,7 @@
 "e3cf99e1-a6e5-4284-9f92-261c7713bc54","Customer Experience Platform CDPA Provisioning PROD","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "3138fe80-4087-4b04-80a6-8866c738028a","SharePoint Notification Service","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "a70c8393-7c0c-4c1e-916a-811bd476ee11","Microsoft Defender for Cloud CIEM","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
+"f2537abf-644e-4a0d-9f7b-c91c45c643db","Teams Admin Monitoring Alerting Platform","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "870c4f2e-85b6-4d43-bdda-6ed9a579b725","Microsoft Information Protection Sync Service","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "0c7668b5-3260-4ad0-9f53-34ed54fa19b2","Microsoft Defender for Cloud Servers Scanner Resource Provider","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "a12e8ccb-0fcd-46f8-b6a1-b9df7a9d7231","Azure Arc Data Processing Services","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
