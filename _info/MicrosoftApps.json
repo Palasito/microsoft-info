@@ -3072,6 +3072,12 @@
     "source": "Graph"
   },
   {
+    "appId": "e03a13ee-9730-4cae-8525-47559c8cf18a",
+    "displayName": "Office Online Service",
+    "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "source": "Graph"
+  },
+  {
     "appId": "00000008-0000-0000-c000-000000000000",
     "displayName": "Microsoft.Azure.DataMarket",
     "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -23768,12 +23774,6 @@
   {
     "appId": "3ce44149-e365-40e4-9bb4-8c0ecb710fe6",
     "displayName": "Office Online Print SSO",
-    "appOwnerOrganizationId": "",
-    "source": "EntraDocs"
-  },
-  {
-    "appId": "e03a13ee-9730-4cae-8525-47559c8cf18a",
-    "displayName": "Office Online Service",
     "appOwnerOrganizationId": "",
     "source": "EntraDocs"
   },

@@ -511,6 +511,7 @@
 "557c67cf-c916-4293-8373-d584996f60ae","Configuration Manager Microservice","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "c9299480-c13a-49db-a7ae-cdfe54fe0313","PowerApps-Advisor","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "a164aee5-7d0a-46bb-9404-37421d58bdf7","Microsoft Teams AuthSvc","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
+"e03a13ee-9730-4cae-8525-47559c8cf18a","Office Online Service","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "00000008-0000-0000-c000-000000000000","Microsoft.Azure.DataMarket","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "579d9c9d-4c83-4efc-8124-7eba65ed3356","Azure Compute","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "6a8b4b39-c021-437c-b060-5a14a3fd65f3","Verifiable Credentials Service Admin","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
