@@ -1980,6 +1980,12 @@
     "source": "Graph"
   },
   {
+    "appId": "64a7b174-5779-4506-b54c-fbb0d80f1c9b",
+    "displayName": "CMAT",
+    "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "source": "Graph"
+  },
+  {
     "appId": "5b3b270a-b9ad-46e7-9bbb-a866897c4dc7",
     "displayName": "Azure Portal RP",
     "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -24429,12 +24435,6 @@
     "appId": "62916641-fc48-44ae-a2a3-163811f1c945",
     "displayName": "Message Header Analyzer [Community Contributed]",
     "appOwnerOrganizationId": "",
-    "source": "GitHub"
-  },
-  {
-    "appId": "64a7b174-5779-4506-b54c-fbb0d80f1c9b",
-    "displayName": "CMAT [Community Contributed]",
-    "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "source": "GitHub"
   },
   {
