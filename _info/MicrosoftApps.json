@@ -360,6 +360,12 @@
     "source": "Graph"
   },
   {
+    "appId": "35e5e31d-b3e8-442b-9a8d-2f81f46938cf",
+    "displayName": "Entra App Platform System Application",
+    "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "source": "Graph"
+  },
+  {
     "appId": "507bc9da-c4e2-40cb-96a7-ac90df92685c",
     "displayName": "Office 365 Reports",
     "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",

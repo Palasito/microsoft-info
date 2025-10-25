@@ -59,6 +59,7 @@
 "7e468355-e4db-46a9-8289-8d414c89c43c","Federated Profile Service","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "38df11dd-582e-4207-be6f-b214675f44a1","SEAL All credentials","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "b97b6bd4-a49f-4a0c-af18-af507d1da76c","Office Shredding Service","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
+"35e5e31d-b3e8-442b-9a8d-2f81f46938cf","Entra App Platform System Application","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "507bc9da-c4e2-40cb-96a7-ac90df92685c","Office 365 Reports","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "51b5e278-ed7e-42c6-8787-7ff93e92f577","Narada Notification Service","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "4787c7ff-7cea-43db-8d0d-919f15c6354b","Dynamics 365 Viva Sales","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
