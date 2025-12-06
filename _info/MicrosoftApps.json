@@ -1440,6 +1440,12 @@
     "source": "Graph"
   },
   {
+    "appId": "81ca2f57-06b8-4597-9eee-ad8f700c5106",
+    "displayName": "MicrosoftEntraIDReputationManagementServices",
+    "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "source": "Graph"
+  },
+  {
     "appId": "ee45196f-bd15-4010-9a66-c8497a97a873",
     "displayName": "Microsoft Defender For Cloud Discovery",
     "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",

@@ -239,6 +239,7 @@
 "78462efa-e271-409c-a90b-ce3fbd93538a","Microsoft Teams Admin Gateway Service","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "1c2909a7-6432-4263-a70d-929a3c1f9ee5","Common Data Service License Management","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "3bc2296e-aa22-4ed2-9e1e-946d05afa6a2","SharePoint Online Web Client Extensibility Isolated","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
+"81ca2f57-06b8-4597-9eee-ad8f700c5106","MicrosoftEntraIDReputationManagementServices","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "ee45196f-bd15-4010-9a66-c8497a97a873","Microsoft Defender For Cloud Discovery","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "c066d759-24ae-40e7-a56f-027002b5d3e4","M365DataAtRestEncryption","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "167e2ded-f32d-49f5-8a10-308b921bc7ee","OCaaS Worker Services","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
